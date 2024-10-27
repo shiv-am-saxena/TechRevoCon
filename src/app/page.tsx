@@ -12,7 +12,7 @@ export default function page() {
 				<h1>International Conference on Cybernation & Computation</h1>
 				<h2>15-16, November, 2024</h2>
 				<h3>HYBRID MODE</h3>
-				<div className="lg:w-1/3 w-full pr-5 flex text-white justify-between items-center">
+				<div className="lg:w-1/3 w-full flex-wrap pr-5 flex text-white justify-between items-center">
 					<Link href="/about" className="px-5 hover:text-black hover:bg-white duration-300 text-semibold py-3 rounded-[25px] bg-sky-700">About</Link>
 					<Link href="/tracks"  className="px-5 w-32 py-3 ml-0 hover:ml-8 duration-300">Tracks →</Link>
 				</div>
