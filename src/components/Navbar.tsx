@@ -24,11 +24,9 @@ export default function Navbar() {
 
 	return (
 		<div
-			className={`w-full py-5 px-10 sticky top-0 backdrop-blur-sm left-0 flex flex-row xl:px-32 2xl:px-60 items-center justify-between duration-500 flex-wrap lg:flex-nowrap overflow-hidden gap-5 ${
-				open ? "h-28" : "h-auto"
-			}`}>
+			className={`w-full py-5 px-10 lg:px-16 sticky top-0 backdrop-blur-sm left-0 flex flex-row  items-center justify-between duration-500 flex-wrap lg:flex-nowrap overflow-hidden gap-5 lg:gap-28  ${open ? "h-28" : "h-auto"}`}>
 			<Image src={logo_nav} width={60} height={60} alt="Techrevocon" className="order-1" />
-			<div className="h-full p-10 flex lg:p-0 2xl:px-2 w-full backdrop-blur-md lg:flex-row flex-col order-4 lg:order-2 items-center justify-between gap-2">
+			<div className="h-full p-10 flex lg:p-0 2xl:px-2 w-full backdrop-blur-md lg:flex-row flex-col order-4 lg:order-2 items-center justify-evenly gap-2">
 				{navLinks.map((elem, index) => (
 					<Link
 						key={index}
