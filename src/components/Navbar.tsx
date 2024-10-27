@@ -24,15 +24,15 @@ export default function Navbar() {
 
 	return (
 		<div
-			className={`w-full py-5 px-10 lg:px-16 sticky top-0 backdrop-blur-sm left-0 flex flex-row  items-center justify-between duration-500 flex-wrap lg:flex-nowrap overflow-hidden gap-5 lg:gap-28  ${open ? "h-28" : "h-auto"}`}>
+			className={`w-full z-10 py-5 px-10 lg:px-16 sticky top-0 backdrop-blur-sm left-0 flex flex-row  items-center justify-between duration-500 flex-wrap lg:flex-nowrap overflow-hidden gap-5 lg:gap-28  ${open ? "h-28" : "h-auto"}`}>
 			<Image src={logo_nav} width={60} height={60} alt="Techrevocon" className="order-1" />
 			<div className="h-full p-10 flex lg:p-0 2xl:px-2 w-full backdrop-blur-md lg:flex-row flex-col order-4 lg:order-2 items-center justify-evenly gap-2">
 				{navLinks.map((elem, index) => (
 					<Link
 						key={index}
 						href={elem.slug}
-						className={`${index === 9 ? "border border-black rounded-[50px] px-4 py-2 hover:border-white duration-500" : ""} ${
-							pathname === elem.slug ? "text-white" : "text-black"
+						className={`${index === 9 ? "border-2 rounded-[50px] px-4 py-2 hover:border-white duration-500" : ""} ${
+							pathname === elem.slug ? "text-white border-white" : "text-black border-black"
 						} font-semibold hover:text-white text-md  flex-shrink-0 duration-500`}>
 						{elem.name}
 					</Link>
