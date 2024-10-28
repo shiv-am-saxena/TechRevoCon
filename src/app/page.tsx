@@ -16,7 +16,7 @@ export default function page() {
 					<Link href="/about" className="px-5 hover:text-black hover:bg-white duration-300 text-semibold py-3 rounded-[25px] bg-sky-700">About</Link>
 					<Link href="/tracks"  className="px-5 w-fit py-3 hover:translate-x-5 hover:text-black duration-300">Tracks →</Link>
 				</div>
-				<p className="flex-wrap whitespace-normal">
+				<p className="flex-wrap w-full whitespace-normal">
 					Article Submission Link (CMT): <a className="text-blue-900" href="https://cmt3.research.microsoft.com/CYBERCOM2024/Submission/Index">https://cmt3.research.microsoft.com/CYBERCOM2024/Submission/Index</a>
 				</p>
 				<p className="text-red-600 font-semibold text-xl">Extended Submission Deadline: 30, September, 2024</p>
