@@ -7,7 +7,7 @@ export default function page() {
 			<div className="w-full lg:w-1/2 p-10 flex items-center justify-center">
 				<Image src={Logo} height={175} width={175} className="hover:scale-125 h-fit w-fit duration-300" alt="Tech Revolution Conference" />
 			</div>
-			<div className="flex p-5 w-full lg:w-1/2 items-center lg:items-start flex-col gap-4 font-semibold">
+			<div className="flex p-5 w-full lg:w-1/2 text-center lg:text-left items-center lg:items-start flex-col gap-4 font-semibold">
 				<h6 className="font-semibold text-xl">#CYBERCOM24 (IEEE Record. 63683)</h6>
 				<h1 className="text-xl font-semibold"><span className="font-semibold text-5xl lg:text-6xl uppercase">International Conference</span><br /> on Tech Revolution</h1>
 				<h2>15-16, November, 2024</h2>
