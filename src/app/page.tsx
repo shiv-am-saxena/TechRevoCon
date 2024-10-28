@@ -19,7 +19,7 @@ export default function page() {
 				<p>
 					Article Submission Link (CMT): <a className="text-blue-900" href="https://cmt3.research.microsoft.com/CYBERCOM2024/Submission/Index">https://cmt3.research.microsoft.com/CYBERCOM2024/Submission/Index</a>
 				</p>
-				<p className="text-red-600 font-semibold text-xl">Extended Submission Deadline: 30, September, 2024</p>
+				<p className="text-red-600 flex-wrap whitespace-normal font-semibold text-xl">Extended Submission Deadline: 30, September, 2024</p>
 			</div>
 		</div>
 	);
