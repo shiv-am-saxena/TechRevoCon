@@ -5,7 +5,7 @@ export default function page() {
 	return (
 		<div className="flex flex-col lg:flex-row w-full">
 			<div className="w-full lg:w-1/2 p-10 flex items-center justify-center">
-				<Image src={Logo} height={175} width={175} className="hover:scale-125 h-fit w-fit duration-300" alt="Tech Revolution Conference" />
+				<Image src={Logo} height={200} width={200} className="hover:scale-[1.15] h-fit w-fit duration-300" alt="Tech Revolution Conference" />
 			</div>
 			<div className="flex p-5 w-full lg:w-1/2 text-center lg:text-left items-center lg:items-start flex-col gap-4 font-semibold">
 				<h6 className="font-semibold text-xl">#CYBERCOM24 (IEEE Record. 63683)</h6>
