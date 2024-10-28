@@ -9,7 +9,7 @@ export default function page() {
 			</div>
 			<div className="flex p-5 w-full lg:w-1/2 lg:text-left text-center flex-col gap-4 font-semibold">
 				<h6 className="font-semibold text-xl">#CYBERCOM24 (IEEE Record. 63683)</h6>
-				<h1 className="text-xl font-semibold"><span className="font-semibold text-6xl uppercase">International Conference</span><br /> on Tech Revolution</h1>
+				<h1 className="text-xl font-semibold"><span className="font-semibold text-5xl lg:text-6xl uppercase">International Conference</span><br /> on Tech Revolution</h1>
 				<h2>15-16, November, 2024</h2>
 				<h3>HYBRID MODE</h3>
 				<div className="w-fit flex-nowrap gap-10 pr-5 flex text-white justify-between items-center">
