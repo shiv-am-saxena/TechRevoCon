@@ -28,7 +28,7 @@ export default function Footer() {
 					</a>
 				</div>
 			</div>
-			<div className="w-full lg:w-2/3 flex flex-row flex-wrap flex-shrink-0 order-2 items-center justify-evenly">
+			<div className="w-full lg:w-2/3 text-lg flex flex-row flex-wrap flex-shrink-0 order-2 items-center justify-evenly">
 				<div className="flex flex-col gap-3">
 					<Link href="/about" className={`flex-shrink-0 font-medium capitalize ${pathname == '/about' ? 'text-white' : 'text-black'} hover:text-white duration-500`}>About Us</Link>
 					<Link href="/call-for-paper" className={`flex-shrink-0 font-medium capitalize ${pathname == '/call-for-paper' ? 'text-white' : 'text-black'} hover:text-white duration-500`}>Call For Paper</Link>

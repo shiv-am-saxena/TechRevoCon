@@ -12,7 +12,7 @@ export default function page() {
 				<h1 className="text-3xl leading-[50px] tracking-widest font-semibold"><span className="font-bold text-5xl lg:text-6xl uppercase">International Conference</span><br /> on Tech Revolution</h1>
 				<h2 className="text-3xl">15-16, November, 2025</h2>
 				<h3 className="text-xl text-red-500">HYBRID MODE</h3>
-				<div className="lg:w-1/2 w-fit gap-5 pr-10 py-3 flex flex-wrap text-black justify-between items-start capitalize">
+				<div className="lg:w-1/2 w-fit gap-5 py-3 text-lg flex flex-wrap text-black justify-between items-start capitalize">
 					<Link href="#" className="px-7 hover:text-white border-2 border-black hover:border-[#004b6a] duration-300 text-semibold py-3 rounded-md hover:bg-[#004b6a]">Submit your paper</Link>
 					<Link href="/about" className="px-7 hover:text-white border-2 border-black hover:border-[#004b6a] duration-300 text-semibold py-3 rounded-md hover:bg-[#004b6a]">About</Link>
 					<Link href="/registration" className="px-7 hover:text-white border-2 border-black hover:border-[#004b6a] duration-300 text-semibold py-3 rounded-md hover:bg-[#004b6a]">Registration</Link>
