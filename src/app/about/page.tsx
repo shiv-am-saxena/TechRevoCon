@@ -5,7 +5,7 @@ export default function page() {
 	return (
 		<div className="h-full flex flex-col gap-10 w-full p-10">
 			<div className="w-full flex flex-row items-center justify-around">
-				<h1 className="text-center w-1/3 text-6xl font-semibold">About Us</h1>
+				<h1 className="text-center w-full lg:w-1/3 text-6xl font-semibold">About Us</h1>
 				<Image src={image} width={250} className="hidden lg:block scale-150" alt="Robot" />
 			</div>
 			<div className="flex flex-col gap-10 ">

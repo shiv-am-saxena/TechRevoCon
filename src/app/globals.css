@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body{
-    background:linear-gradient(45deg, #0485c8e6 0%, #80c7ece6 100%),  url('../../public/hero-bg.jpg') center center no-repeat;
+    background:linear-gradient(45deg, #0485c8e6 0%, #80c7ece6 100%),  url('../../public/hero-bg.jpg') center center;
 }
