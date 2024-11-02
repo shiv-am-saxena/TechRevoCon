@@ -9,7 +9,7 @@ export default function page() {
 				<Image src={image} width={250} className="hidden lg:block scale-150" alt="Robot" />
 			</div>
 			<div className="flex flex-col gap-10 ">
-				<div className="w-full flex flex-col lg:flex-row p-10 gap-7 items-center justify-center bg-white/20 rounded-3xl">
+				<div className="w-full flex flex-col lg:flex-row p-10 gap-7 items-center justify-around bg-white/20 rounded-3xl">
 					<div className="order-2 lg:order-1 w-full lg:w-1/2">
 						<h3 className="text-2xl font-bold uppercase leading-10 tracking-widest">
 							Shri Ramswaroop Memorial University
@@ -25,7 +25,7 @@ export default function page() {
 					</div>
 					<Image src={srmu} height={350} width={600} className="order-1 lg:order-2 rounded-xl" alt="Shri Ramswaroop Memorial University" />
 				</div>
-				<div className="w-full flex flex-col lg:flex-row p-10 gap-7 items-center justify-center bg-white/20 rounded-3xl">
+				<div className="w-full flex flex-col lg:flex-row p-10 gap-7 items-center justify-around bg-white/20 rounded-3xl">
 					<div className="order-2 w-full lg:w-1/2">
 						<h3 className="text-2xl font-bold uppercase leading-10 tracking-widest">
 							Computer Science and Engineering
