@@ -13,7 +13,7 @@ export default function RootLayout({
 			<head>
 				<title>TECHREVOCON-24</title>
 			</head>
-			<body className={`antialiased bg-gradient-to-b from-sky-600 to-sky-200`}>
+			<body className={`antialiased min-h-screen `}>
 				<Navbar/>
 				<Robot/>
 				{children}

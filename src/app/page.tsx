@@ -9,17 +9,19 @@ export default function page() {
 			</div>
 			<div className="flex p-5 w-full lg:w-1/2 text-center lg:text-left items-center lg:items-start flex-col gap-6 font-semibold">
 				<h6 className="font-semibold tracking-wider text-xl">#CYBERCOM24 (IEEE Record. 63683)</h6>
-				<h1 className="text-xl tracking-widest font-semibold"><span className="font-bold text-5xl lg:text-6xl uppercase">International Conference</span><br /> on Tech Revolution</h1>
-				<h2 className="text-xl">15-16, November, 2024</h2>
+				<h1 className="text-3xl leading-[50px] tracking-widest font-semibold"><span className="font-bold text-5xl lg:text-6xl uppercase">International Conference</span><br /> on Tech Revolution</h1>
+				<h2 className="text-3xl">15-16, November, 2025</h2>
 				<h3 className="text-xl text-red-500">HYBRID MODE</h3>
-				<div className="w-fit flex-nowrap gap-10 pr-5 flex text-white justify-between items-center">
-					<Link href="/about" className="px-5 hover:text-black hover:bg-white duration-300 text-semibold py-3 rounded-[25px] bg-sky-700">About</Link>
-					<Link href="/tracks"  className="px-5 w-fit py-3 hover:translate-x-5 hover:text-black duration-300">Tracks →</Link>
+				<div className="lg:w-1/2 w-fit gap-5 pr-10 py-3 flex flex-wrap text-black justify-between items-start capitalize">
+					<Link href="#" className="px-7 hover:text-white border-2 border-black hover:border-[#004b6a] duration-300 text-semibold py-3 rounded-md hover:bg-[#004b6a]">Submit your paper</Link>
+					<Link href="/about" className="px-7 hover:text-white border-2 border-black hover:border-[#004b6a] duration-300 text-semibold py-3 rounded-md hover:bg-[#004b6a]">About</Link>
+					<Link href="/registration" className="px-7 hover:text-white border-2 border-black hover:border-[#004b6a] duration-300 text-semibold py-3 rounded-md hover:bg-[#004b6a]">Registration</Link>
+					<Link href="/about" className="px-7 hover:text-white border-2 border-black hover:border-[#004b6a] duration-300 text-semibold py-3 rounded-md hover:bg-[#004b6a]">Tracks</Link>
 				</div>
-				<p className="w-full text-xl">
+				<p className="w-full hidden text-xl">
 					Article Submission Link (CMT): <a className="text-blue-900" href="https://cmt3.research.microsoft.com/CYBERCOM2024/Submission/Index">Link</a>
 				</p>
-				<p className="text-red-600 font-semibold text-xl">Extended Submission Deadline: 30, September, 2024</p>
+				<p className="text-red-600 hidden font-semibold text-xl">Extended Submission Deadline: 30, September, 2024</p>
 			</div>
 		</div>
 	);

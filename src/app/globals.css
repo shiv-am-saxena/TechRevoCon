@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background:linear-gradient(45deg, #3acdfae6 0%, #0ca9d8e6 100%),  url('../../public/hero-bg.jpg') center center no-repeat;
+}
