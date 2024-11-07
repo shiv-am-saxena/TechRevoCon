@@ -23,7 +23,7 @@ export default function page() {
 						<FontAwesomeIcon icon={faUser} className="text-blue-600 text-3xl mb-4" />
 						<h2 className="text-lg font-semibold text-gray-800">Participants Registration</h2>
 						<a href="https://forms.gle/n7r3AWFsXza6F3NPA" className="text-blue-500 mt-2 hover:underline" target="_blank" rel="noopener noreferrer">
-							https://forms.gle/n7r3AWFsXza6F3NPA
+							Link{" "}
 						</a>
 					</div>
 

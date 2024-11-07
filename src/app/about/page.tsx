@@ -11,7 +11,7 @@ export default function page() {
 				</p>
 			</div>
 			<div className="flex flex-col gap-4 py-10 bg-white/40 rounded-3xl">
-				<div className="w-full flex flex-col lg:flex-row px-10 gap-7 items-center justify-around ">
+				<div className="w-full flex flex-col lg:flex-row px-5 gap-7 items-center justify-around ">
 					<div className="order-2 lg:order-1 w-full lg:w-1/2">
 						<h3 className="text-2xl font-bold uppercase leading-10 tracking-widest">
 							Shri Ramswaroop Memorial University
