@@ -13,7 +13,7 @@ export default function Footer() {
 			<div className="w-full lg:w-1/3 flex-shrink-0 text-center flex flex-col gap-5 order-1">
 				<div className="flex-shrink-0 w-full flex flex-row flex-nowrap items-center justify-center gap-2 uppercase font-bold">
 					<Image src={logo} height={35} width={35} alt="Tech Revolution Conference" layout="fixed" />
-					<h1 className="text-2xl">TechRevoCon-24</h1>
+					<h1 className="text-2xl">TechRevoCon-25</h1>
 				</div>
 				<p className="text-xl font-semibold">International Conference on Tech Revolution </p>
 				<div className="flex flex-row-reverse items-center justify-center gap-5 p-2">

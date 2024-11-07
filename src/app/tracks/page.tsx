@@ -36,7 +36,7 @@ export default function page() {
 					companies.
 				</p>
 			</div>
-			<div className="flex flex-col lg:flex-row items-start justify-evenly lg:px-28 text-center px-10 py-20 gap-10 rounded-3xl bg-white/40">
+			<div className="flex flex-col lg:flex-row items-start justify-evenly lg:px-28 text-center px-5 py-20 gap-10 rounded-3xl bg-white/40">
 				<div className="lg:w-1/3 w-full gap-5 flex flex-col items-center order-2 lg:order-1">
 					{tracks.map((e, index) => {
 						return <Track icon={e.icon} key={index} title={e.title} content={e.content} />;

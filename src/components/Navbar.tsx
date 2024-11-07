@@ -31,7 +31,7 @@ export default function Navbar() {
 					<Link
 						key={index}
 						href={elem.slug}
-						className={`${index === 9 ? "border-2 rounded-[50px] px-4 py-2 hover:border-white duration-500" : ""} ${
+						className={`${index === 9 ? "border-2 rounded-[50px] px-4 py-2 hover:border-black duration-500" : ""} ${
 							pathname === elem.slug ? "text-black border-black" : "text-white border-white"
 						} font-semibold hover:text-black text-lg  flex-shrink-0 duration-500`}>
 						{elem.name}
