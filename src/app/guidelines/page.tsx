@@ -22,7 +22,7 @@ export default function page() {
 						<li>
 							All the articles will be submitted through CMT (LINK). However, if anyone encounters ant problem while submission may contact at{" "}
 							<a href="mailto:cybercom@gehu.ac.in" className="text-blue-700 font-semibold">cybercom@gehu.ac.in</a>. All the accepted and presented papers of TechRevoCon-2025 will be submitted to inclusion into IEEE Xplore
-							subject to meeting IEEE Xplore's scope. **Indexing: Scopus
+							subject to meeting IEEE Xplore&apos;s scope. **Indexing: Scopus
 						</li>
 					</ul>
 				</div>
@@ -99,7 +99,7 @@ export default function page() {
 						<li>Acceptable plagiarism range is less than 10% (excluding references) with 0% AI Plagiarism.</li>
 						<li>Plagiarism, image manipulation, and data fabrication are not tolerated.</li>
 						<li>
-							Plagiarism includes copying research ideas, text, images, or data from another source/research literature, even from the author's own publications without giving any credit
+							Plagiarism includes copying research ideas, text, images, or data from another source/research literature, even from the author&apos;s own publications without giving any credit
 							to the original source.
 						</li>
 						<li>
@@ -113,7 +113,7 @@ export default function page() {
 					<h4 className="font-medium text-xl">Copyright</h4>
 					<ul className="list-disc pl-5 text-justify flex flex-col gap-1">
 						<li>
-							As an author/editor of a work, you may be responsible for overseeing the inclusion of third party content. By 'third party content' we mean any work that you have not
+							As an author/editor of a work, you may be responsible for overseeing the inclusion of third party content. By &apos;third party content&apos; we mean any work that you have not
 							created yourself and which you have reproduced or adapted from other sources.
 						</li>
 						<li>
