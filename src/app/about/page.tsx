@@ -4,12 +4,15 @@ import srmu from "@/../public/srmu.jpg";
 export default function page() {
 	return (
 		<div className="h-full flex flex-col gap-10 w-full p-10">
-			<div className="w-full flex flex-row items-center justify-around">
-				<h1 className="text-center w-full lg:w-1/3 text-6xl font-semibold">About Us</h1>
-				<Image src={image} width={250} className="hidden lg:block scale-150" alt="Robot" />
+			<div className="w-full flex flex-col items-center justify-center text-white">
+				<h1 className="text-center w-full text-6xl font-semibold">About Us</h1>
+				<br />
+				<p className="text-center md:w-1/2 w-full px-10">
+				"Blending academic excellence with real-world experience to shape future-ready leaders."
+				</p>
 			</div>
-			<div className="flex flex-col gap-10 ">
-				<div className="w-full flex flex-col lg:flex-row p-10 gap-7 items-center justify-around bg-white/20 rounded-3xl">
+			<div className="flex flex-col gap-4 py-10 bg-white/40 rounded-3xl">
+				<div className="w-full flex flex-col lg:flex-row px-10 gap-7 items-center justify-around ">
 					<div className="order-2 lg:order-1 w-full lg:w-1/2">
 						<h3 className="text-2xl font-bold uppercase leading-10 tracking-widest">
 							Shri Ramswaroop Memorial University
@@ -25,7 +28,7 @@ export default function page() {
 					</div>
 					<Image src={srmu} height={350} width={600} className="order-1 lg:order-2 rounded-xl" alt="Shri Ramswaroop Memorial University" />
 				</div>
-				<div className="w-full flex flex-col lg:flex-row p-10 gap-7 items-center justify-around bg-white/20 rounded-3xl">
+				<div className="w-full flex flex-col lg:flex-row p-10 gap-7 items-center justify-around rounded-3xl">
 					<div className="order-2 w-full lg:w-1/2">
 						<h3 className="text-2xl font-bold uppercase leading-10 tracking-widest">
 							Computer Science and Engineering
@@ -41,12 +44,14 @@ export default function page() {
 					</div>
 					<Image src={srmu} height={350} width={600} className="order-1 rounded-xl" alt="Shri Ramswaroop Memorial University" />
 				</div>
-				<div className="w-full flex flex-col lg:flex-row p-10 gap-7 items-center justify-around bg-white/20 rounded-3xl">
+				<hr />
+				<div className="w-full flex flex-col px-10 pt-5 gap-7 items-center justify-around">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.463069273348!2d81.09534802544081!3d26.952231326623643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995ee81add328f%3A0xbe8acc99218572c9!2sShri%20Ramswaroop%20Memorial%20University%20(SRMU)!5e0!3m2!1sen!2sin!4v1730651130528!5m2!1sen!2sin"
 						width={1200}
 						height={400}
-						loading={"lazy"} className="w-full rounded-xl"></iframe>
+						loading={"lazy"}
+						className="w-full rounded-xl"></iframe>
 				</div>
 			</div>
 		</div>
