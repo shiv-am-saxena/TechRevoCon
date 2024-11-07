@@ -1,4 +1,3 @@
-import image from "@/../public/About-img.png";
 import Image from "next/image";
 import srmu from "@/../public/srmu.jpg";
 export default function page() {
