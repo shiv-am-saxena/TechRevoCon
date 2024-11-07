@@ -7,7 +7,7 @@ export default function page() {
 				<h1 className="text-center w-full text-6xl font-semibold">About Us</h1>
 				<br />
 				<p className="text-center md:w-1/2 w-full px-10">
-				"Blending academic excellence with real-world experience to shape future-ready leaders."
+				Blending academic excellence with real-world experience to shape future-ready leaders.
 				</p>
 			</div>
 			<div className="flex flex-col gap-4 py-10 bg-white/40 rounded-3xl">
