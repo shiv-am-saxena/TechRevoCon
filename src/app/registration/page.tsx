@@ -20,8 +20,6 @@ const page: React.FC = () => {
 					<RegistrationCard title="International Authors" price="100" currency="USD" isClosed={true} href="#" buttonText="Closed Now" />
 					<RegistrationCard title="Participants" price="500" currency="Rupees" isClosed={false} href="#" buttonText="Click for Registration" />
 				</div>
-
-				<PaymentDetails />
 			</div>
 		</div>
 	);
